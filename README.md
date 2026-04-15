@@ -1,5 +1,5 @@
-# FastApi_10K_calls
-# 🚀 FastAPI High Performance API (10K RPS Concept)
+
+# FastAPI High Performance API (10K RPS Concept)
 
 This project demonstrates how to build a high-performance FastAPI service using:
 
