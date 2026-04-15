@@ -11,28 +11,17 @@ This project demonstrates how to build a high-performance FastAPI service using:
 
 ---
 
-## 📁 Project Structure
-
-
-fastapi-10k-rps/
-│
-├── app.py
-├── requirements.txt
-└── README.md
-
-
 ---
 
-## ⚙️ Installation
+## Running the Server
 
-```bash
-pip install -r requirements.txt
-▶️ Running the Server
-Run with multiple workers (multi-core usage)
-uvicorn app:app --workers 4 --port 8001
-🌐 API Endpoints
+### Run with multiple workers (multi-core usage)
+
+  #### uvicorn app:app --workers 4 --port 8001
+  
+## API Endpoints
 Endpoint	Description
-/	Basic root endpoint
-/fast	High-speed response (baseline performance)
-/wait	Simulates async I/O using sleep
-/parallel	Demonstrates parallel API calls
+#### /	Basic root endpoint
+#### /fast	High-speed response (baseline performance)
+#### /wait	Simulates async I/O using sleep
+#### /parallel	Demonstrates parallel API calls
